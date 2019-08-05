@@ -1,0 +1,21 @@
+.Toggle_Button{
+    display : flex;
+    flex-direction : column;  /* default is row, but want to displayed beneath each other */
+    justify-content : space-around; /* freely available space in flexbox is distributed elements 8 */
+    height : 24px;
+    width : 30px;
+    background: transparent;  /*make the button invisible */
+    border : none; 
+    cursor : pointer;
+}
+
+.Toggle_Button:focus{
+    outline : none;   /* dont see anything while clicking */
+}
+
+.ToggleButtonLine {
+    width : 30px;   /* width 100% wont work inside button */
+    height : 2px;
+    background: white;
+
+}

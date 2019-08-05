@@ -1,0 +1,50 @@
+.Toolbar {
+    position : fixed ;
+    top: 0;
+    width : 100%;
+    height: 50px;
+    background :#161016
+}
+
+
+.Toolbar_Navigation {
+    display : flex;      
+    align-items: center;   /*center elements vertically, 100% height of header*/
+    height : 100% ;
+    padding : 0 1rem;
+}
+
+.Toolbar_Logo {
+    margin-left : 1.5rem;
+}
+
+.Toolbar_Logo a {
+    color : white;
+    text-decoration:  none;
+    font-size : 1.5rem;
+
+}
+
+.Spacer {
+    flex : 1;  /* Takes up all available space*/
+}
+.Toolbar_Navigation_Items ul{
+    list-style : none;  /* not as list item now, and display flex to position items next to each other*/
+    margin : 0;
+    padding : 0;
+    display : flex;
+}
+
+.Toolbar_Navigation_Items li{
+    padding : 0 1rem;
+}
+
+.Toolbar_Navigation_Items a{
+    color : white;
+    text-decoration : none;
+}
+
+.Toolbar_Navigation_Items a:hover ,
+.Toolbar_Navigation_Items a:active {
+    color : orange;
+}
